@@ -10,7 +10,8 @@ const makeCircles = () => {
 
     } else {
         for ( let i = 0; i < inputNum.value; i++) {
-            console.log (i)
+            const circle = document.createElement("div")
+            circle.classList.add("circle")
         }
     }
  }
