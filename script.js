@@ -1,1 +1,1 @@
-const inputNum = document.querySelector("")
+const inputNum = document.querySelector("#input-num")
