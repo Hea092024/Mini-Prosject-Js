@@ -10,6 +10,11 @@ const makeCircles = () => {
 
         
     } else {
+        const circles = document.querySelectorAll(".circle");
+        for ( circle of circles) {
+            circle.remove();
+        }
+        
         for ( let i = 0; i < inputNum.value; i++) {
             const circle = document.createElement("div")
             circle.classList.add("circle");
