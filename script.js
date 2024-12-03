@@ -12,6 +12,7 @@ const makeCircles = () => {
         for ( let i = 0; i < inputNum.value; i++) {
             const circle = document.createElement("div")
             circle.classList.add("circle")
+            circle.textContent = i + 1
         }
     }
  }
