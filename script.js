@@ -14,7 +14,7 @@ const makeCircles = () => {
             circle.classList.add("circle")
             circle.textContent = i + 1
             circle.style.backgroundColor = `#${math.floor(math.random() * 16777215).toString(16)}`
-            
+            circleContainer.append(circle)
         }
     }
  }
